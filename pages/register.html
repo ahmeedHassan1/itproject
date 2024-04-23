@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="POST">
+            <h1>Register</h1>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+            <button type="submit">Register</button>
+            <a href="login.html">Already have an account?</a>
+        </form>
+    </div>
+    <script>
+        const inputs = document.querySelectorAll('input');
+
+        inputs.forEach(input => {
+            if (input.hasAttribute('required')) {
+                const asterisk = document.createElement('span');
+                asterisk.textContent = '*';
+                asterisk.style.color = 'red'; 
+                asterisk.style.padding = ' 0 0 0 2px'; 
+
+                input.parentNode.insertBefore(asterisk, input.nextSibling);
+            }
+        });
+    </script>
+</body>
+
+</html>
