@@ -27,3 +27,7 @@ aElements.forEach((aElement) => {
         span.style.opacity = '0';
     });
 });
+
+window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+});
