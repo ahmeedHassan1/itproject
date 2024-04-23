@@ -28,6 +28,9 @@ aElements.forEach((aElement) => {
     });
 });
 
-window.addEventListener('load', function() {
-    document.body.classList.add('loaded');
-});
+window.onload = function() {
+    let loader = document.querySelector('.loader');
+    let content = document.querySelector('.content');
+    loader.style.display = 'none';
+    content.style.display = 'block';
+};
