@@ -52,26 +52,28 @@ body {
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 a {
-    width: 300px;
     position: relative;
     border-radius: 10%;
     overflow: hidden;
 }
+a:not(.map) {
+    width: 18%;
+}
 
 a span {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 0;
     width: 100%;
     z-index: 5;
-    color: white;
+    color: white;   
     opacity: 0;
     transition: opacity 0.5s;
     text-align: center;
@@ -79,6 +81,7 @@ a span {
 
 a img {
     width: 100%;
+    height: 100%;
     border-radius: 10%;
 }
 
@@ -90,11 +93,12 @@ a img {
 .map {
     order: 2;
     cursor: default;
+    height: 60%;
 }
 
 .giza {
     position: absolute;
-    bottom: 5%;
+    top: calc(64.5vh + 10px);
 }
 
 .aswan {
