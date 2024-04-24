@@ -28,9 +28,10 @@ aElements.forEach((aElement) => {
     });
 });
 
-window.onload = function() {
-    let loader = document.querySelector('.loader');
-    let content = document.querySelector('.content');
-    loader.classList.add('loaded');
-    content.style.display = 'block';
+window.onload = function () {
+    let loaderContainer = document.querySelector('.loader-wrapper');
+    loaderContainer.classList.add('loaded');
+    setTimeout(function () {
+        loaderContainer.style.display = 'none';
+    }, 3000);
 };
