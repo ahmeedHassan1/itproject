@@ -31,6 +31,6 @@ aElements.forEach((aElement) => {
 window.onload = function() {
     let loader = document.querySelector('.loader');
     let content = document.querySelector('.content');
-    loader.style.display = 'none';
+    loader.classList.add('loaded');
     content.style.display = 'block';
 };

@@ -30,6 +30,9 @@ body {
         transform: rotate(360deg);
     }
 }
+.loader.loader {
+    display: none;
+}
 
 .background-vid {
     position: fixed;
