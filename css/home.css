@@ -30,7 +30,7 @@ body {
         transform: rotate(360deg);
     }
 }
-.loader.loader {
+.loader.loaded {
     display: none;
 }
 
