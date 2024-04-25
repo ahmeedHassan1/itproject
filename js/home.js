@@ -1,4 +1,4 @@
-let aElements = document.querySelectorAll("a:not(.map)");
+let aElements = document.querySelectorAll(".container a:not(.map)");
 
 aElements.forEach((aElement) => {
 

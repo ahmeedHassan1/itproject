@@ -6,17 +6,17 @@
     align-items: center;
 }
 
-a {
+.container a {
     position: relative;
     border-radius: 10%;
     overflow: hidden;
 }
 
-a:not(.map) {
+.container a:not(.map) {
     width: 18%;
 }
 
-a span {
+.container a span {
     position: absolute;
     bottom: 10%;
     left: 0;
@@ -28,7 +28,7 @@ a span {
     text-align: center;
 }
 
-a img {
+.container a img {
     width: 100%;
     height: 100%;
     border-radius: 10%;
@@ -46,8 +46,8 @@ a img {
 }
 
 .giza {
-    position: absolute;
-    top: calc(64.5vh + 10px);
+    position: absolute !important;
+    top: calc(64.5vh + 10px) !important;
 }
 
 .aswan {
