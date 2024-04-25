@@ -1,0 +1,123 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fef0d9;
+    border: 5px solid #e7c89e;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fef0d9;
+    border: 5px solid #e7c89e;
+    padding: 30px;
+    border-radius: 20px;
+    z-index: 2000;
+}
+
+.popup .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #6b4226;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 2000;
+}
+
+.popup .close-btn:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #6b4226;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+label {
+    font-size: 18px;
+    color: #6b4226;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #6b4226;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #6b4226;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #59391d;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link span {
+    font-size: 18px;
+    color: #6b4226;
+}
+
+.login-link a {
+    color: #6b4226;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #906642;
+}
+
+.password-alert {
+    display: none;
+    position: absolute;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    top: 100%;
+    left: 0;
+    transform: translateY(10px);
+}

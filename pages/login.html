@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div class="background-overlay"></div>
+    <video autoplay muted loop class="background-vid">
+        <source src="../videos/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="overlay" id="overlay"></div>
+
+    <div class="container" id="loginContainer">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+
+            <input type="submit" value="Login">
+        </form>
+        <div class="login-link">
+            <span>Don't have an account? </span><a href="#" id="openPopup">Register</a>
+        </div>
+    </div>
+
+    <div class="popup" id="registerPopup">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <h1>Registration</h1>
+        <form id="registrationForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <div class="password-alert" id="passwordMismatchAlert">Passwords do not match!</div>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+</body>
+
+</html>

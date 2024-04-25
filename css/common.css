@@ -1,3 +1,4 @@
+/* Global Rules */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -11,8 +12,9 @@ body {
     overflow: hidden;
 }
 
+/* Loader */
 .loader-wrapper {
-    z-index: 1000;
+    z-index: 10000;
     position: fixed;
     top: 0;
     left: 0;
@@ -53,6 +55,7 @@ body {
     pointer-events: none;
 }
 
+/* Background */
 .background-vid {
     position: fixed;
     right: 0;
@@ -62,7 +65,7 @@ body {
     z-index: -2;
 }
 
-.overlay {
+.background-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -70,4 +73,54 @@ body {
     height: 100%;
     z-index: -1;
     background: rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #9d7b47;
+    padding: 10px 20px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    position: relative;
+    height: 55px;
+}
+
+.logo-separator {
+    border-right: 2px solid #b39f88;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    height: 100%;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fef0d9;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #e7c89e;
 }
