@@ -27,3 +27,11 @@ aElements.forEach((aElement) => {
         span.style.opacity = '0';
     });
 });
+// Load the loading screen
+window.onload = function () {
+    let loaderContainer = document.querySelector('.loader-wrapper');
+    loaderContainer.classList.add('loaded');
+    setTimeout(function () {
+        loaderContainer.style.display = 'none';
+    }, 3000);
+};
