@@ -131,3 +131,20 @@ nav a {
 nav a:hover {
     color: #e7c89e;
 }
+
+.nav-dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    background-color: #8B4513;
+    width: fit-content;
+    border-radius: 0 0 10px 10px;
+    margin-top: 5px;
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    visibility: visible;
+    opacity: 1;
+}
