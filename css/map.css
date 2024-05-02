@@ -6,9 +6,9 @@
 }
 
 #map {
-    background-color: white;
+    background-color: var(--text);
     height: 60%;
-    border: 3px solid #e7c89e;
+    border: 3px solid var(--border);
     border-radius: 10px;
 }
 
@@ -16,8 +16,8 @@
     position: absolute;
     display: none;
     padding: 10px;
-    background-color: #906642;
-    color: #fef0d9;
+    background-color: var(--background);
+    color: var(--text);
     border-radius: 10px;
     pointer-events: none;
     font-size: 15px;

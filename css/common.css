@@ -2,7 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 /* Icons */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
 /* Global Rules */
+:root {
+    --nav-background: #9d7b47;
+    --text: #fef0d9;
+    --border: #e7c89e;
+    --background: #906642;
+    --button-hover: #59391d;
+}
+
+#theme-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -87,7 +104,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #9d7b47;
+    background-color: var(--nav-background);
     padding: 10px 20px;
     z-index: 9999;
     display: flex;
@@ -101,7 +118,7 @@ nav img {
 }
 
 .logo-separator {
-    border-right: 2px solid #b39f88;
+    border-right: 2px solid var(--text);
     height: 30px;
     margin-left: 15px;
 }
@@ -121,20 +138,20 @@ nav ul li {
 }
 
 nav a {
-    color: #fef0d9;
+    color: var(--text);
     text-decoration: none;
     font-size: 20px;
     padding: 10px 15px;
 }
 
 nav a:hover {
-    color: #e7c89e;
+    color: var(--border);
 }
 
 .nav-dropdown-content {
     visibility: hidden;
     position: absolute;
-    background-color: #8B4513;
+    background-color: var(--background);
     width: fit-content;
     border-radius: 0 0 10px 10px;
     margin-top: 5px;

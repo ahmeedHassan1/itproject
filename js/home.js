@@ -34,4 +34,8 @@ window.onload = function () {
     setTimeout(function () {
         loaderContainer.style.display = 'none';
     }, 3000);
+    const storedColor = localStorage.getItem('themeColor');
+    if (storedColor) {
+        applyTheme(storedColor);
+    }
 };

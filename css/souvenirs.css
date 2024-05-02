@@ -12,7 +12,7 @@
 
 .slider-heading {
     text-align: center;
-    color: #e7c89e;
+    color: var(--text);
     font-size: 28px;
 }
 
@@ -20,9 +20,9 @@
     width: 300px;
     position: relative;
     overflow: hidden;
-    color: #6b4226;
-    background-color: #fef0d9;
-    border: 5px solid #e7c89e;
+    color: var(--background);
+    background-color: var(--text);
+    border: 5px solid var(--border);
     border-radius: 20px;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .slide-info a {
-    color: #6b4226;
+    color: var(--background);
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -54,7 +54,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #906642;
+    background-color: var(--background);
     border: none;
     color: #000;
     cursor: pointer;
@@ -72,5 +72,5 @@
 
 .prev:hover,
 .next:hover {
-    background-color: #e7c89e;
+    background-color: var(--border);
 }
