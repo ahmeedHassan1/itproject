@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#map {
+    background-color: white;
+    height: 60%;
+    border: 3px solid #e7c89e;
+    border-radius: 10px;
+}
+
+.tooltip {
+    position: absolute;
+    display: none;
+    padding: 10px;
+    background-color: #906642;
+    color: #fef0d9;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}

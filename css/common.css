@@ -118,14 +118,13 @@ nav ul {
 nav ul li {
     height: 100%;
     display: inline;
-    margin-right: 20px;
 }
 
 nav a {
     color: #fef0d9;
     text-decoration: none;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
 nav a:hover {
