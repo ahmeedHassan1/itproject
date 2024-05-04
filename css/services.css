@@ -1,0 +1,192 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popup-container-box-one {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--text);
+    border: 5px solid var(--border);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.overlay-one {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+.popup-container-box-two {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--text);
+    border: 5px solid var(--border);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.overlay-two {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+#bttn {
+    border-radius: 6px;
+    outline: none;
+    position: relative;
+    top: 300px;
+    left: 150px;
+}
+
+#bttn:hover {
+    background-color: #ac6c14;
+}
+
+#closebttn {
+    border-radius: 6px;
+
+}
+
+#closebttn:hover {
+    background-color: #736c58;
+}
+
+.First-Box {
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: var(--text);
+    border: 5px solid var(--border);
+}
+
+.Stays {
+    text-align: center;
+    font-weight: bolder;
+    color: var(--background);
+}
+
+.Second-Box {
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: var(--text);
+    border: 5px solid var(--border);
+}
+
+.Travel {
+    color: var(--background);;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.First-Box:hover {
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+
+.Second-Box:hover {
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+
+.Medical {
+    text-align: center;
+    font-weight: bolder;
+    color: var(--background);
+}
+
+.Third-Box {
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: var(--text);
+    border: 5px solid var(--border);
+}
+
+.Third-Box:Hover {
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+
+.popup-container-box-three {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--text);
+    border: 5px solid var(--border);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.overlay-three {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+.img-hotel {
+    width: 100%;
+    height: 100%;
+}
+
+.medical-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.travel-img {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    position: absolute;
+    left: 560px;
+    top: -50px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 100px;
+}
+
+h3:hover {
+    transform: scale(1.4);
+    transition-duration: 1.5s;
+    color: #ac6c14;
+}

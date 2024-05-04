@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" href="../images/head.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/booking.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div class="background-overlay"></div>
+    <video autoplay muted loop class="background-vid">
+        <source src="../videos/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <header>
+        <h1>Your Gate to Egypt</h1>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Find Your Stay</h2>
+            <p class="Destnation">Destination:</p>
+            <select class="place">
+                <option value="choose your Destination">Choose Your Destination</option>
+                <option value="Aswan"> Aswan</option>
+                <option value="Luxor">Luxor</option>
+                <option value="Cairo">Cairo</option>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Giza">Giza</option>
+                <option value="Sharm El-Sheikh">Sharm El-Sheikh</option>
+                <option value="Dahab">Dahab</option>
+                <option value="hurghada">Hurghada</option>
+            </select>
+            <form>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Find Places</button>
+            </form>
+        </section>
+        <section class="top-places">
+            <h2 class="header-places">Top Places In Egypt</h2>
+            <p class="Luxor-Place">Luxor</p>
+            <div class="div-luxor-img">
+                <img src="../images/luxor.jpg" alt="" class="luxor-img">
+            </div>
+            <p class="Aswan-Place">Aswan</p>
+            <div class="div-aswan-img">
+                <img src="../images/aswan.jpg" alt="" class="aswan-img">
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="../js/common.js"></script>
+</body>
+
+</html>

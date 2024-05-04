@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="icon" href="../images/head.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/services.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div class="background-overlay"></div>
+    <video autoplay muted loop class="background-vid">
+        <source src="../videos/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <main>
+        <section class="First-Box">
+            <div class="overlay-one" onclick="closePopup()"></div>
+
+            <div class="popup-container-box-one" id="popup-one">
+                <h2>Hotels</h2>
+                <p>We got a variety of options to book in Egypt.
+                    <br>Every destination got a unique advantage.
+                </p>
+                <button onclick="closePopup()" id="closebttn">Close</button>
+            </div>
+
+            <button onclick="openPopup()" id="bttn">Show Details </button>
+            <p class="Stays">Booking Stays</p>
+            <div class="img-hotel-div">
+                <img src="../images/services/hotel.jpg" alt="" class="img-hotel">
+            </div>
+
+
+
+        </section>
+        <section class="Second-Box">
+            <div class="overlay-two" onclick="closePopuptwo()"></div>
+
+            <div class="popup-container-box-two" id="popup-two">
+                <h2>Traveling</h2>
+                <p>Egypt got many cities with unique views.
+                    <br>Each city holds a different story.
+                </p>
+                <button onclick="closePopuptwo()" id="closebttn">Close</button>
+            </div>
+
+            <button onclick="openPopuptwo()" id="bttn">Show Details </button>
+            <p class="Travel">Traveling Around</p>
+            <div class="travel-img-div">
+                <img src="../images/services/travel.jpg" alt="" class="travel-img">
+            </div>
+        </section>
+        <section class="Third-Box">
+            <div class="overlay-three" onclick="closePopupthree()"></div>
+
+            <div class="popup-container-box-three" id="popup-three">
+                <h2>Treatment</h2>
+                <p>Egypt is famous for medical tourism.
+                    <br>Many cities got natural lakes for treatment.
+                </p>
+                <button onclick="closePopupthree()" id="closebttn">Close</button>
+            </div>
+
+            <button onclick="openPopupthree()" id="bttn">Show Details </button>
+            <p class="Medical">Medical Tourism</p>
+            <div class="medical-img-div">
+                <img src="../images/siwa.jpg" alt="" class="medical-img">
+            </div>
+
+
+
+        </section>
+
+    </main>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/services.js"></script>
+</body>
+
+</html>

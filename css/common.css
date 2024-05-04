@@ -147,7 +147,10 @@ nav a {
 nav a:hover {
     color: var(--border);
 }
-
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
 .nav-dropdown-content {
     visibility: hidden;
     position: absolute;

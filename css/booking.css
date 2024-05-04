@@ -1,0 +1,190 @@
+nav {
+    position: static;
+}
+
+header {
+    color: var(--text);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header:hover {
+    color: #fff;
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.booking-form {
+    position: absolute;
+    left: 40px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: var(--text);
+    border: 5px solid var(--border);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h2 {
+    color: var(--background);
+    text-align: center;
+}
+
+.booking-form label {
+    position: relative;
+    top: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.booking-form input[type="date"] {
+    position: relative;
+    bottom: -20px;
+    width: 90%;
+    padding: 5px;
+    background-color: #333;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.Destnation {
+    text-align: left;
+    position: relative;
+    top: -20px;
+}
+
+.booking-form button {
+    position: relative;
+    top: 50px   ;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--background);
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: var(--button-hover);
+}
+
+.place {
+
+    width: 90%;
+    padding: 5px;
+    background-color: #333;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 15px;
+
+
+
+}
+
+.place:hover {
+    background-color: var(--button-hover);
+
+}
+
+.booking-form input[type="date"]:hover {
+    background-color: var(--button-hover);
+
+}
+
+.top-places {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: var(--text);
+    border: 5px solid var(--border);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-places {
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    color: var(--background);
+}
+
+.Luxor-Place {
+    color: var(--background);
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.luxor-img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-luxor-img {
+    position: relative;
+    bottom: 15px;
+    right: -90px;
+    width: 300px;
+    height: 150px;
+
+
+}
+
+.div-luxor-img:hover {
+    transform: scale(1.2);
+    transform-style: flat;
+    transition-duration: 1.5s;
+    cursor: pointer;
+
+
+}
+
+.Aswan-Place {
+    color: var(--background);
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.aswan-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.div-aswan-img {
+    position: relative;
+    bottom: 20px;
+    right: -90px;
+    width: 300px;
+    height: 150px;
+}
+
+.div-aswan-img:hover {
+    transform: scale(1.2);
+    transform-style: flat;
+    transition-duration: 1.5s;
+    cursor: pointer;
+
+}
