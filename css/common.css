@@ -155,7 +155,7 @@ nav a:hover {
     visibility: hidden;
     position: absolute;
     background-color: var(--background);
-    width: fit-content;
+    width: max-content;
     border-radius: 0 0 10px 10px;
     margin-top: 5px;
     padding: 10px 0;
