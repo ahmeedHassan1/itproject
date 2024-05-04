@@ -161,6 +161,7 @@ nav a:hover {
     padding: 10px 0;
     opacity: 0;
     transition: opacity .5s;
+    z-index: 999999;
 }
 
 .nav-dropdown:hover .nav-dropdown-content {

@@ -1,0 +1,48 @@
+nav {
+    position: static;
+}
+
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.show {
+    display: block;
+    font-size: 20px;
+    font-style: 'Nanum Myeongjo', serif;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(39, 4, 6);
+}
+
+.toggle {
+    background-color: var(--background);
+    color: var(--text);
+    padding: 1px 1px;
+    border-radius: 20px;
+    border: none;
+}
+
+.container {
+    width: max-content;
+    margin: 10px auto;
+    background-color: var(--text);
+    border: 5px solid var(--border);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.toggle:hover {
+    background-color: var(--button-hover);
+}
+
+.question {
+    color: rgb(39, 4, 6);
+}
