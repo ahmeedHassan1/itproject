@@ -1,0 +1,73 @@
+body {
+  background-color: var(--border);
+  overflow-y: auto;
+}
+
+nav {
+  position: static;
+}
+
+
+
+#image {
+  width: 25%;
+  position: absolute;
+}
+
+
+#image2 {
+
+  width: 25%;
+  position: absolute;
+  top: 500px;
+
+
+}
+
+#text1 {
+  position: relative;
+  left: 27%;
+  top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#switchButton,
+#switchButton2,
+#preButton {
+  background-color: var(--background);
+  color: var(--text);
+  border: none;
+  border-radius: 16px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#switchButton:hover,
+#switchButton2:hover,
+#preButton:hover {
+  background-color: var(--button-hover);
+}
+
+#image:hover,
+#image2:hover {
+  opacity: 0.7;
+  transform: scale(1, 1.25);
+}
+
+#text2 {
+
+  position: absolute;
+  left: 27%;
+  top: 500px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#preButton {
+  position: absolute;
+  left: 80%;
+  top: 900px;
+}
