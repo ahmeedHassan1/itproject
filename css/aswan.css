@@ -37,27 +37,17 @@ nav {
   color: #666;
 }
 
-
-.video {
-  flex: 1;
-  padding-top: 0px;
-  padding-left: 10px;
-
-}
-
 video {
   width: 100%;
   height: auto;
 
 }
 
+.video,
 .video2 {
   width: 55%;
-  padding-top: 0px;
-  padding-left: 10px;
-
-
 }
+
 
 #nextButton {
 
