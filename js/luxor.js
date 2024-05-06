@@ -28,10 +28,8 @@ document.getElementById("switchButton2").addEventListener("click", function () {
         currentImage = 1;
     }
 });
-document.addEventListener("DOMContentLoaded", function () {
     let preButton = document.getElementById("preButton");
 
     preButton.addEventListener("click", function () {
         window.location.href = "../pages/aswan.html";
     });
-});

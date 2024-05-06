@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
     const toggles = document.querySelectorAll('.toggle');
     
     toggles.forEach(toggle => {
@@ -7,4 +6,3 @@ document.addEventListener('DOMContentLoaded', function() {
             answer.classList.toggle('show');
         });
     });
-});
