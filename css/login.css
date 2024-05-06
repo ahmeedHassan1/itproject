@@ -119,6 +119,7 @@ div:has(#passMatchIcon) {
 }
 
 .password-icons i {
+    color: var(--background);
     margin-right: 5px;
 }
 
