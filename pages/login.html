@@ -44,12 +44,38 @@
 
             <label for="password"><i class="fas fa-lock"></i> Password:</label>
             <input type="password" id="password" name="password" required>
+            <div class="password-icons">
+                <div>
+                    <i id="lengthIcon" class="fas fa-times"></i>
+                    <span id="lengthText">At least 8 characters</span>
+                </div>
+                <div>
+                    <i id="uppercaseIcon" class="fas fa-times"></i>
+                    <span id="uppercaseText">At least one uppercase letter</span>
+                </div>
+                <div>
+                    <i id="lowercaseIcon" class="fas fa-times"></i>
+                    <span id="lowercaseText">At least one lowercase letter</span>
+                </div>
+                <div>
+                    <i id="numberIcon" class="fas fa-times"></i>
+                    <span id="numberText">At least one number</span>
+                </div>
+                <div>
+                    <i id="specialCharIcon" class="fas fa-times"></i>
+                    <span id="specialCharText">At least one special character</span>
+                </div>
+            </div>
 
             <label for="confirmPassword"><i class="fas fa-lock"></i> Confirm Password:</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required>
-            <div class="password-alert" id="passwordMismatchAlert">Passwords do not match!</div>
+            <div class="password-icons">
+                <div>
+                    <i id="passMatchIcon" class="fas fa-times"></i>
+                    <span id="passMatchText">Password match</span>
+                </div>
 
-            <input type="submit" value="Register">
+                <input type="submit" id="registerButton" value="Register" disabled>
         </form>
     </div>
     <script type="text/javascript" src="../js/common.js"></script>

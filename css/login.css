@@ -23,6 +23,7 @@
     display: none;
     position: fixed;
     top: 50%;
+    width: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--text);
@@ -105,15 +106,27 @@ input[type="submit"]:hover {
     color: var(--button-hover);
 }
 
-.password-alert {
-    display: none;
-    position: absolute;
-    background-color: #f44336;
-    color: var(--text);
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    top: 100%;
-    left: 0;
-    transform: translateY(10px);
+.password-icons {
+    margin-bottom: 20px;
+}
+
+.password-icons div {
+    margin-bottom: 3px;
+}
+
+div:has(#passMatchIcon) {
+    margin-bottom: 10px;
+}
+
+.password-icons i {
+    margin-right: 5px;
+}
+
+.password-icons span {
+    font-size: 13px;
+    color: red;
+}
+
+.password-icons span.correct {
+    color: green;
 }
