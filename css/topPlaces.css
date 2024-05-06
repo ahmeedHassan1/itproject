@@ -4,13 +4,13 @@ nav {
 
 h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px auto;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #db890d;
-  background-color: #c4bebe;
+  background-color: var(--text);
+  border: 5px solid var(--border);
   border-radius: 15px;
-  width: 390px;
-  margin-left: 425px;
+  width: max-content;
   text-shadow: 10px 10px 10px rgb(70, 70, 11);
 }
 
@@ -28,7 +28,7 @@ table {
 
 th,
 td {
-  border: 3px solid #d1b8b8;
+  border: 5px solid var(--border);
   padding: 10px;
   text-align: left;
   color: rgb(0, 0, 0);
@@ -38,7 +38,8 @@ td {
 
 /* done */
 th {
-  background-color: #c4bebe;
+  background-color: var(--text);
+  border: 5px solid var(--border);
   color: #db890d;
   font-weight: bolder;
   font-size: 30px;
@@ -49,5 +50,6 @@ th {
 
 
 tr:nth-child(even) {
-  background-color: #f2f2f2b9;
+  background-color: var(--text);
+  border: 5px solid var(--border);
 }
